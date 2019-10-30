@@ -13,4 +13,12 @@ export class Satellite {
         this.operational=operational;
 
     }
+    shouldShowWarning(){
+        let test ="Space Debris"
+        if(this.type.toLowerCase() === test.toLowerCase()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

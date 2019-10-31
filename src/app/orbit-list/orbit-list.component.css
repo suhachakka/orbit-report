@@ -53,3 +53,7 @@ th, td {
     padding: 6px;
 
 }
+tr:nth-child(even) {
+    background-color:green;
+    color: white;
+}
